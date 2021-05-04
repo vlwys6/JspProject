@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+
+@font-face {
+	font-family:"SCDream4";
+	src:url("fonts/SCDream4.otf") format("opentype");
+	font-style:normal;
+	font-weight:normal;
+	}
+	
+input, textarea, body {font-family: 'SCDream4'; }
+
+
+
+	
+/* 메뉴 */
+#menu { width:100%;
+		height:50px;
+		}
+
+#menu > ul { 
+			width:auto;
+			/*  border-top: 1px solid #2E8B57;
+			 border-bottom: 1px solid #2E8B57; */
+			 list-style-type: none;
+			 text-align: center;
+			 margin: 0;
+			 padding: 0;
+			 background-color:#AA9172;
+				 }
+				 	
+#menu > ul > li {display:inline-block;
+				 margin-top:10px;
+				 margin-bottom:10px;
+				 margin-left:100px;
+				 margin-right:100px;
+				 font-size:22px;
+				 
+				 }
+				 
+#menu > ul > li > a {text-decoration: none;
+					 color:white;}
+
+#menu > ul > li > a:hover{text-decoration: none;
+								  color:white;
+								  font-weight:bold;}
+
+header {width:100%;
+		height:50px;
+		text-align:center;
+	    }
+
+#loginbefore{width:100%;}	
+#loginafter {width:1500px;}	
+
+.loginbefore, .loginafter { color:white;
+						  	text-align:right;
+						  	margin-right:190px;
+						  	margin-bottom: 10px;
+					}
+					
+#loginbefore > .loginbefore > div{ width:80px; 
+								   height:30px;
+								   background-color:#5EBC88;
+								   text-align:center;
+								   display: inline-block;
+								   border-radius: 10px;
+								   }					
+					
+#loginbefore > .loginbefore > div > a {	color:white;
+									  	text-decoration: none;
+									    text-align:right;
+									    vertical-align:middle;
+									    font-size:14px;}
+
+#loginafter > .loginafter > div	 { width:80px; 
+								   height:25px;
+								   background-color:#5EBC88;
+								   text-align:center;
+								   display: inline-block;
+								   border-radius: 10px;
+								   }					
+					
+#loginafter > .loginafter > div > a {	color:white;
+									  	text-decoration: none;
+									    text-align:right;
+									    vertical-align:middle;
+									    font-size:14px;}
+		    
+#mainlogo {width:104px;
+		   height:64px;
+		   margin-top:30px;}
+		   
+#mainlogo_footer {width:104px;
+		   height:64px;
+		   margin-top:3px;}
+
+/* 고정 */
+body{ margin: 0 auto;
+      width: 1500px;}
+
+.footer {text-align:left; font-size:12px; color:white;}
